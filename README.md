@@ -9,8 +9,9 @@ The School Management System is designed to efficiently manage school operations
 - Class schedule management
 - Teacher assignment and management
 - Grade and attendance tracking
-- Parent portal for monitoring student progress
+- Event Registration
 - Admin management for school operations
+- Result Card Generation
 
 ## Technologies Used
 - Java
