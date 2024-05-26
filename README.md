@@ -27,3 +27,8 @@ The database schema is provided in a separate file named `SMS.jpg`. This file in
 - Java Development Kit (JDK) installed
 - Oracle Database setup
 - JDBC driver for Oracle Database
+
+## Authors
+Muhammad Mudassar Durvaish
+## Feedback
+If you have any feedback, please reach out to us at mudassardurvaish@gmail.com
