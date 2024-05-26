@@ -31,7 +31,7 @@ The database schema is provided in a separate file named `SMS.jpg`. This file in
 ## Video
 
 <video width="600" controls>
-  <source src="./sms.mp4" type="video/mp4">
+  <source src="./SMS.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
