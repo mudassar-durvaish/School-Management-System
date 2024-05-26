@@ -29,6 +29,6 @@ The database schema is provided in a separate file named `SMS.jpg`. This file in
 - JDBC driver for Oracle Database
 
 ## Authors
-Muhammad Mudassar Durvaish
+[Muhammad Mudassar Durvaish](https://github.com/mudassar-durvaish)
 ## Feedback
 If you have any feedback, please reach out to us at mudassardurvaish@gmail.com
