@@ -30,8 +30,9 @@ The database schema is provided in a separate file named `SMS.jpg`. This file in
 
 ## Video
 
-<video controls>
-  <source src="./SMS.mp4">
+<video controls width="600">
+  <source src="./SMS.mp4" type="video/mp4">
+  Your browser does not support the video tag.
 </video>
 
 ## Authors
