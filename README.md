@@ -19,7 +19,7 @@ The School Management System is designed to efficiently manage school operations
 - Oracle Database for data storage
 
 ## Database Schema
-The database schema is provided in a separate file named `DatabaseSchema.txt`. This file includes the table creation scripts, views, and sequences necessary for the School Management System.
+The database schema is provided in a separate file named `SMS.jpg`. This file includes the table creation scripts, views, and sequences necessary for the School Management System.
 
 ## Setup Instructions
 ### Prerequisites
