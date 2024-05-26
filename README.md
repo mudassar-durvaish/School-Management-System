@@ -28,6 +28,13 @@ The database schema is provided in a separate file named `SMS.jpg`. This file in
 - Oracle Database setup
 - JDBC driver for Oracle Database
 
+## Video
+
+<video width="600" controls>
+  <source src="./sms.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
 ## Authors
 [Muhammad Mudassar Durvaish](https://github.com/mudassar-durvaish)
 ## Feedback
