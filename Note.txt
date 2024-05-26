@@ -1,0 +1,3 @@
+Database used is Oracle
+
+And the IDE used is Intellij

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sms.first.MainController">
+   <children>
+      <Text fill="#1f6dc2" layoutX="25.0" layoutY="40.0" strokeType="OUTSIDE" strokeWidth="0.0" text="SHOOL MANAGEMENT SYSTEM" textAlignment="CENTER" wrappingWidth="563.13671875">
+         <font>
+            <Font size="37.0" />
+         </font>
+      </Text>
+      <ImageView fx:id="btnStudent" accessibleRole="BUTTON" accessibleText="STUDENT" fitHeight="108.0" fitWidth="108.0" layoutX="85.0" layoutY="81.0" onMouseClicked="#studentScreenScene" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@student.png" />
+         </image>
+      </ImageView>
+      <Label alignment="CENTER" layoutX="93.0" layoutY="185.0" onMouseClicked="#studentScreenScene" prefHeight="16.0" prefWidth="93.0" text="STUDENT" textAlignment="CENTER" textFill="#1f6dc2">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="108.0" fitWidth="143.0" layoutX="253.0" layoutY="81.0" onMouseClicked="#toEmployees" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@employees.png" />
+         </image>
+      </ImageView>
+      <Label alignment="CENTER" layoutX="254.0" layoutY="185.0" onMouseClicked="#toEmployees" text="EMPLOYEES" textAlignment="CENTER" textFill="#1f6dc2">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="108.0" fitWidth="143.0" layoutX="428.0" layoutY="81.0" onMouseClicked="#toRooms" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@rooms.png" />
+         </image>
+      </ImageView>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="429.0" layoutY="185.0" onMouseClicked="#toRooms" prefHeight="30.0" prefWidth="108.0" text="ROOMS" textAlignment="CENTER" textFill="#1f6dc2">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="108.0" fitWidth="143.0" layoutX="85.0" layoutY="233.0" onMouseClicked="#toTimeSchedule" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@timeSchedule.png" />
+         </image>
+      </ImageView>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="60.0" layoutY="335.0" onMouseClicked="#toTimeSchedule" prefHeight="30.0" prefWidth="159.0" text="TIME SCHEDULE" textAlignment="CENTER" textFill="#1f6dc2">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="108.0" fitWidth="143.0" layoutX="253.0" layoutY="227.0" onMouseClicked="#toAuditorium" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@auditorium.png" />
+         </image>
+      </ImageView>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="239.0" layoutY="335.0" onMouseClicked="#toAuditorium" prefHeight="30.0" prefWidth="136.0" text="AUDITORIUM" textAlignment="CENTER" textFill="#1f6dc2">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="108.0" fitWidth="143.0" layoutX="428.0" layoutY="227.0" onMouseClicked="#toResults" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@exam-results.png" />
+         </image>
+      </ImageView>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="415.0" layoutY="335.0" onMouseClicked="#toResults" prefHeight="30.0" prefWidth="136.0" text="RESULTS" textAlignment="CENTER" textFill="#1f6dc2">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

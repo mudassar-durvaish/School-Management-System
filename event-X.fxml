@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sms.first.EventXController">
+   <children>
+      <Text fx:id="heading" fill="#1f6dc2" layoutX="137.0" layoutY="73.0" strokeType="OUTSIDE" strokeWidth="0.0" text="EVENT CATEGORY" textAlignment="CENTER" wrappingWidth="457.0">
+         <font>
+            <Font size="29.0" />
+         </font>
+      </Text>
+      <Button layoutX="33.0" layoutY="38.0" mnemonicParsing="false" onAction="#toHomeScene" prefHeight="49.0" prefWidth="104.0" text="HOME">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Button>
+      <Button layoutX="33.0" layoutY="312.0" mnemonicParsing="false" onAction="#toEventsScene" prefHeight="49.0" prefWidth="104.0" text="EVENTS">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Button>
+      <TableView fx:id="eventTable" layoutX="32.0" layoutY="100.0" prefHeight="200.0" prefWidth="549.0">
+        <columns>
+          <TableColumn fx:id="idColumn" prefWidth="62.0" text="Reg. ID" />
+            <TableColumn fx:id="nameColumn" prefWidth="116.0" text="Name" />
+          <TableColumn fx:id="eventTypeColumn" prefWidth="100.0" text="Event_Type" />
+            <TableColumn fx:id="noOfSeats" prefWidth="142.0" text="No. Of Seats" />
+            <TableColumn fx:id="auditoriumName" prefWidth="128.0" text="Auditorium Name" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

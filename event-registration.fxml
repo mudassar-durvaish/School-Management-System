@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sms.first.EventRegistrationController">
+   <children>
+      <Text fill="#1f6dc2" layoutX="154.0" layoutY="60.0" strokeType="OUTSIDE" strokeWidth="0.0" text="EVENT REGISTRATION" textAlignment="CENTER" wrappingWidth="311.13671875">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Text>
+      <Button layoutX="38.0" layoutY="23.0" mnemonicParsing="false" onAction="#toHomeScene" prefHeight="49.0" prefWidth="104.0" text="Home">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Button>
+      <Button layoutX="38.0" layoutY="337.0" mnemonicParsing="false" onAction="#toEvents" prefHeight="49.0" prefWidth="104.0" text="EVENTS">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Button>
+      <Text layoutX="59.0" layoutY="107.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Registration ID:" wrappingWidth="189.13671875">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Text>
+      <TextField fx:id="inputId" layoutX="56.0" layoutY="119.0" prefHeight="37.0" prefWidth="238.0" promptText="Registration ID (Unique)" />
+      <Text layoutX="310.0" layoutY="108.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Name:" wrappingWidth="189.13671875">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Text>
+      <TextField fx:id="inputName" layoutX="310.0" layoutY="119.0" prefHeight="37.0" prefWidth="238.0" promptText="Name" />
+      <Text layoutX="59.0" layoutY="179.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Event Type:" wrappingWidth="189.13671875">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <RadioButton layoutX="67.0" layoutY="193.0" mnemonicParsing="false" prefHeight="28.0" prefWidth="145.0" text="Motivational">
+         <font>
+            <Font size="16.0" />
+         </font>
+         <toggleGroup>
+            <ToggleGroup fx:id="eventType" />
+         </toggleGroup>
+      </RadioButton>
+      <RadioButton layoutX="227.0" layoutY="193.0" mnemonicParsing="false" prefHeight="28.0" prefWidth="145.0" text="Educational" toggleGroup="$eventType">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </RadioButton>
+      <RadioButton layoutX="393.0" layoutY="193.0" mnemonicParsing="false" prefHeight="28.0" prefWidth="145.0" text="Poetry" toggleGroup="$eventType">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </RadioButton>
+      <Text layoutX="59.0" layoutY="244.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Auditorium Name:" wrappingWidth="189.13671875">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <RadioButton layoutX="67.0" layoutY="252.0" mnemonicParsing="false" prefHeight="28.0" prefWidth="134.0" text="Grand Hall">
+         <font>
+            <Font size="16.0" />
+         </font>
+         <toggleGroup>
+            <ToggleGroup fx:id="auditoriumName" />
+         </toggleGroup>
+      </RadioButton>
+      <RadioButton layoutX="227.0" layoutY="252.0" mnemonicParsing="false" prefHeight="28.0" prefWidth="153.0" text="Main Auditorium" toggleGroup="$auditoriumName">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </RadioButton>
+      <RadioButton layoutX="393.0" layoutY="252.0" mnemonicParsing="false" prefHeight="28.0" prefWidth="165.0" text="Small Auditorium" toggleGroup="$auditoriumName">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </RadioButton>
+      <Button layoutX="247.0" layoutY="289.0" mnemonicParsing="false" onAction="#addRegistration" prefHeight="40.0" prefWidth="95.0" text="Submit">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Button>
+      <Text fx:id="resultText" fill="#1f6dc2" layoutX="154.0" layoutY="356.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Hi there, please fill  all the information" textAlignment="CENTER" wrappingWidth="436.13671875">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>
