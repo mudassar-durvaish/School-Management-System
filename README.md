@@ -5,22 +5,24 @@ School Management System (SMS) is a comprehensive application designed to facili
 The School Management System is designed to efficiently manage school operations, including student information, class schedules, and teacher assignments. The system allows administrators to manage students and staff, handle class schedules, and track academic progress. This project includes a robust backend with a well-structured database schema.
 
 ## Features
-Student registration and authentication
-Class schedule management
-Teacher assignment and management
-Grade and attendance tracking
-Parent portal for monitoring student progress
-Admin management for school operations
+- Student registration and authentication
+- Class schedule management
+- Teacher assignment and management
+- Grade and attendance tracking
+- Parent portal for monitoring student progress
+- Admin management for school operations
+
 ## Technologies Used
-Java
-JavaFX for the frontend
-JDBC for database connectivity
-Oracle Database for data storage
-Database Schema
-The database schema is provided in a separate file named DatabaseSchema.txt. This file includes the table creation scripts, views, and sequences necessary for the School Management System.
+- Java
+- JavaFX for the frontend
+- JDBC for database connectivity
+- Oracle Database for data storage
+
+## Database Schema
+The database schema is provided in a separate file named `DatabaseSchema.txt`. This file includes the table creation scripts, views, and sequences necessary for the School Management System.
 
 ## Setup Instructions
-Prerequisites
-Java Development Kit (JDK) installed
-Oracle Database setup
-JDBC driver for Oracle Database
+### Prerequisites
+- Java Development Kit (JDK) installed
+- Oracle Database setup
+- JDBC driver for Oracle Database
