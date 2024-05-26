@@ -1,1 +1,2 @@
 # School Management System
+School Management System (SMS) is a comprehensive application designed to facilitate the efficient management of school operations, leveraging the capabilities of Oracle Database for backend data storage and Java with JavaFX for the frontend user interface. This system aims to streamline administrative tasks, enhance communication between various stakeholders, and provide an integrated platform for managing student, staff, and academic information.
